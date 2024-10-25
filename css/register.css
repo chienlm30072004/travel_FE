@@ -1,0 +1,20 @@
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+  background: url('../html/img/loginbackground.jpg') no-repeat;
+    background-size: auto ;
+    background-position-y:-80px ;
+    font-size: 18px;
+}
+.registration-form {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

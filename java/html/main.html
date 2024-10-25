@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="../css/damn.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="da text-white text-center ">
+    <div id="carouselExampleIndicators" class="carousel slide mt-2">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/run1.png" class="d-block w-100 h-100 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/run2.png" class="d-block w-100 h-100 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/run3.png" class="d-block w-100 h-100 mx-auto" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light bg-dark ">
+    <div class="container">
+      <img class="logo" src="img/logo.png" alt="">
+      <a class="navbar-brand text-warning" href="#"></a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="bi bi-airplane-engines-fill"></i>
+              DU LỊCH NƯỚC NGOÀI
+            </a>
+            <ul class="dropdown-menu col-ms-3">
+              <li><a class="dropdown-item hover-hsla" href="TravelSpain.html"><i
+                    class="bi bi-globe-asia-australia"></i>DU LỊCH TÂY BA
+                  NHA</a></li>
+              <ul class="dropdown-submenu">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Thủ đô Madrid</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Thành phố Barcelona sôi động</a>
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Thành phố Cordoba cổ kính</a></li>
+              </ul>
+              <li><a class="dropdown-item col-ms-3" href="#"><i class="bi bi-globe-asia-australia"></i>DU LỊCH BỒ ĐÀO
+                  NHA</a></li>
+              <ul class="dropdown-submenu">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Thung lũng Douro</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Thành cổ Guimarães</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Vùng tự trị Azores</a></li>
+              </ul>
+              <li><a class="dropdown-item col-ms-3" href="#"><i class="bi bi-globe-asia-australia"></i>DU LỊCH ĐỨC</a>
+              </li>
+              <ul class="dropdown-submenu">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Thủ đô Berlin</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>München (Thành phố Munich)</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Cologne (Köln)</a></li>
+              </ul>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="bi bi-send"></i></i>
+              DU LỊCH TRONG NƯỚC
+            </a>
+            <ul class="dropdown-menu col-ms-3">
+              <li><a class="dropdown-item hover-hsla" href="#"><i class="bi bi-globe-asia-australia"></i>Du Lịch Thành
+                  Phố Đà Nẵng</a></li>
+              <ul class="dropdown-submenu">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Bà Nà Hills</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Bán Đảo Sơn Trà</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Thác Hoà Phú Thành</a></li>
+              </ul>
+              <li><a class="dropdown-item col-ms-3" href="#"><i class="bi bi-globe-asia-australia"></i>Du Lịch Thành
+                  Phố Đà Lạt</a></li>
+              <ul class="dropdown-submenu">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Samten Hills</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Cao Nguyên Hoa</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Thung Lũng Vàng</a></li>
+              </ul>
+              <li><a class="dropdown-item col-ms-3" href="#"><i class="bi bi-globe-asia-australia"></i>Du Lịch Thành
+                  Phố Hạ Long </a></li>
+              <ul class="dropdown-submenu">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Vịnh Hạ Long</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>Đảo Tuần Châu</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-backpack3"></i>NÚI BÀI THƠ</a></li>
+              </ul>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="bi bi-airplane"></i></i>
+              COMBO DU LỊCH
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-transparency"></i>Combo Phổ Biến Hiện Nay</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="bi bi-person-circle"></i>
+              GIỚI THIỆU
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="aboutus.html"><i class="bi bi-megaphone-fill"></i>Về Chúng Tôi</a>
+              </li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-buildings-fill"></i>Thông Tin Công Ty</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-image"></i>Ảnh & Video Đoàn</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="bi bi-list-task"></i>
+              TIN TỨC
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-book-fill"></i>CẨM NANG DU LỊCH</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-amazon"></i>TIN TỨC</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false"><i class="bi bi-telephone-fill"></i>
+              LIÊN HỆ
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="bi bi-people-fill"></i>Hợp Tác</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-person-plus"></i>Tuyển Dụng</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-warning" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-warning" href="register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Main Content Body -->
+  <h4 class="ms-4 text-info">Những Tour Du Lịch Phổ Biến Hà Nội.</h4>
+  <div class="container mt-4 ">
+    <div class="row">
+      <div class="col-md-8">
+        <article class="col-sm-12">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card text-center">
+                <div class="card-header">
+                  [HÀ NỘI] Du lịch Nhật Bản mùa Hoa anh đào 6N5Đ Osaka-Kyoto-Nagoya-Núi Phú Sĩ-Tokyo.
+                </div>
+                <div class="card-body">
+                  <img class="img-fluid img-thumbnail mx-auto" src="img/tour1.jpg">
+                  <div>
+                    <button type="button" class="btn btn-dark">Chi Tiết</button>
+                    <button type="button" class="btn btn-dark">Đặt Tour</button>
+                  </div>
+                </div>
+                <div class="card-footer"><i class="bi bi-cash-coin"></i> 85,599,000 VND</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-center">
+                <div class="card-header">
+                  [HÀ NỘI] Du lịch Nhật Bản mùa Hoa anh đào 6N5Đ Osaka-Kobe-Núi Phú Sĩ-Kyoto-Tokyo.
+                </div>
+                <div class="card-body ">
+                  <img class="img-fluid img-thumbnail mx-auto" src="img/tour2.png">
+                  <div>
+                    <button type="button" class="btn btn-dark">Chi Tiết</button>
+                    <button type="button" class="btn btn-dark">Đặt Tour</button>
+                  </div>
+                </div>
+                <div class="card-footer"><i class="bi bi-cash-coin"></i> 38,990,000 VND</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-center">
+                <div class="card-header">
+                  [[HÀ NỘI] Du lịch Nhật Bản mùa Hoa anh đào 6N5Đ Osaka-Kyoto-Nagoya-Núi Phú Sĩ-Tokyo.
+                </div>
+                <div class="card-body">
+                  <img class="img-fluid img-thumbnail mx-auto" src="img/tour3.png">
+                  <div>
+                    <button type="button" class="btn btn-dark">Chi Tiết</button>
+                    <button type="button" class="btn btn-dark">Đặt Tour</button>
+                  </div>
+                </div>
+                <div class="card-footer"><i class="bi bi-cash-coin"></i> 39,990,000 VND</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-center">
+                <div class="card-header">
+                  [Hồ Chí Minh] Du lịch Đài Loan "Khám phá Đảo Ngọc" 5N4D bay HK Vietjet Air.
+                </div>
+                <div class="card-body">
+                  <img class="img-fluid img-thumbnail mx-auto" src="img/tour4.png">
+                  <div>
+                    <button type="button" class="btn btn-dark">Chi Tiết</button>
+                    <button type="button" class="btn btn-dark">Đặt Tour</button>
+                  </div>
+                </div>
+                <div class="card-footer"><i class="bi bi-cash-coin"></i> 25,599,000 VND</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-center">
+                <div class="card-header">
+                  [Hà Nội] Du lịch Thổ Nhĩ Kỳ Nơi Giao Thoa Văn Hóa Á-Âu:Thổ Nhĩ Kỳ-Istanbul-Cappadocia 9N8D.
+                </div>
+                <div class="card-body">
+                  <img class="img-fluid img-thumbnail mx-auto" src="img/tour5.jpg">
+                  <div>
+                    <button type="button" class="btn btn-dark">Chi Tiết</button>
+                    <button type="button" class="btn btn-dark">Đặt Tour</button>
+                  </div>
+                </div>
+                <div class="card-footer"><i class="bi bi-cash-coin mb-6"></i> 45,990,000 VND</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card text-center">
+                <div class="card-header">
+                  [HÀ NỘI] Du lịch Nhật Bản mùa Hoa anh đào 6N5Đ Nagoya-Osaka-Kyoto-Núi Phú Sĩ-Tokyo.
+                </div>
+                <div class="card-body">
+                  <img class="img-fluid img-thumbnail mx-auto" src="img/tour6.png">
+                  <div>
+                    <button type="button" class="btn btn-dark">Chi Tiết</button>
+                    <button type="button" class="btn btn-dark">Đặt Tour</button>
+                  </div>
+                </div>
+                <div class="card-footer"><i class="bi bi-cash-coin"></i> 78,599,000 VND</div>
+              </div>
+            </div>
+        </article>
+        <!-- Your content goes here -->
+      </div>
+      <div class="col-md-4">
+        <section class="slider">
+          <div class="slider-content">
+            <div class="slider-content-left">
+              <div class="slider-content-left-top-container">
+                <div class="slider-content-left-top ">
+                  <a><img src="img/slide1.png" alt=""></a>
+                  <p>-LÝ DO LỰA CHỌN DOLPHIN TOUR
+                    Dolphin Tour–Thành lập từ 2014 - Đơn vị có hệ thống bán trải rộng khắp Hà Nội và Sài Gòn.
+                  </p>
+                  <a href=""><img src="img/slide2.png" alt=""></a>
+                  <p>-Dolphin Tour–Thành lập từ 2014-Đơn vị có hệ thống bán trải rộng khắp Hà Nội và Sài Gòn, đảm bảo
+                    giá thành sát với nhu cầu của khách hàng nhất.</p>
+                  <a href=""><img src="img/slide3.jpg" alt=""></a>
+                  <p>-Các bữa ăn chất lượng, mức ăn cho khách cao nhất từ 18 EUR- 24 EUR, kết hợp phong phú giữa thực
+                    đơn Á (Trung Quốc, Việt Nam, Thái, Hàn).</p>
+                  <a href=""><img src="img/slide4.png" alt=""></a>
+                  <p>-Dolphin Tou –Thành lập từ 2014-Đơn vị có hệ thống bán trải rộng khắp Hà Nội và Sài Gòn, đảm bảo
+                    giá thành sát với nhu cầu của khách hàng nhất.</p>
+                  <a href=""><img src="img/left56.jpg" alt=""></a>
+                  <p>-ĐÀI LOAN - là một lục địa trên một hòn đảo xanh, không chỉ được biết đến như con rồng của chấu Á
+                    mà còn là điểm đến du lịch hấp dẫn với rừng núi, biển cả, sông hồ, chùa chiềng.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <h4 class="text-center mt-2">Thư Viện Của Chúng Tôi</h4>
+  <!--  -->
+  <ul class="nav nav-tabs" id="myTabs">
+    <li class="nav-item">
+      <a class="nav-link active bg-light" id="tab1-tab" data-bs-toggle="tab" href="#tab1"><i
+          class="bi bi-images"></i>Phong Cảnh</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link bg-light" id="tab2-tab" data-bs-toggle="tab" href="#tab2"><i
+          class="bi bi-person-vcard"></i>Khách Đoàn</a>
+    </li>
+  </ul>
+  <!-- Bootstrap Tab Content -->
+  <div class="tab-content" id="myTabsContent">
+    <!-- Tab 1 Content -->
+    <div class="tab-pane fade show active" id="tab1">
+      <div class="row">
+        <div class="cc col-md-3 ps-3">
+          <p class="image-caption"><i class="bi bi-balloon-fill"></i>Khám phá vẻ đẹp của đèo Hải Vân khi nhìn từ toa tàu
+            hỏa.</p>
+          <img src="img/lbr1.jpg" class="img-fluid">
+        </div>
+        <div class="cc col-md-3 ps-3">
+          <p class="image-caption"><i class="bi bi-balloon-fill"></i>Khám Phá Vẻ Đẹp Của Thác Nước Đóng Băng Ở Trung
+            Quốc.</p>
+          <img src="img/lbr2.jpg" class="img-fluid">
+        </div>
+        <div class="cc col-md-3 ps-3">
+          <p class="image-caption"><i class="bi bi-balloon-fill"></i>Khám phá 11 điểm du lịch nổi tiếng lên MV của sao
+            Việt.</p>
+          <img src="img/lbr3.jpg" class="img-fluid">
+        </div>
+        <div class="cc col-md-3 ps-3">
+          <p class="image-caption"><i class="bi bi-balloon-fill"></i>Khám phá vẻ đẹp London từ trên cao qua bức hình.
+          </p>
+          <img src="img/lbr4.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab 2 Content -->
+    <div class="tab-pane fade" id="tab2">
+      <div class="row">
+        <div class="cc col-md-3 ps-3 ">
+          <p class="image-caption"><i class="bi bi-balloon-fill"></i>Đoàn Châu Âu 7 nước : PHÁP - BỈ - HÀ LAN - ĐỨC -
+            THỤY SĨ - Ý.</p>
+          <img src="img/khachdoan1.jpg" class="img-fluid ">
+        </div>
+        <div class="cc col-md-3 ps-3">
+          <p class="image-caption"><i class="bi bi-balloon-fill"></i>LIÊN TUYẾN ĐÔNG TÂY HOA KỲ 06/06 - 19/06/2023.</p>
+          <img src="img/khachdoan2.jpg" class="img-fluid">
+        </div>
+        <div class="cc col-md-3 ps-3">
+          <p class="image-caption"><i class="bi bi-balloon-fill"></i>Đoàn Nam Âu Khởi Hành TPHCM 23/09 - 3/10/2022.</p>
+          <img src="img/khachdoan3.jpg" class="img-fluid">
+        </div>
+        <div class="cc col-md-3 ps-3">
+          <p class="image-caption"><i class="bi bi-balloon-fill"></i>Đoàn Châu Âu 7 Nước 28/09- 12/10/2022.</p>
+          <img src="img/khachdoan4.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  <h4 class="text-center tintuc">Tin Tức,Cẩm Nang</h4>
+  <div class="row">
+    <div class="ccc col-md-3 ps-3">
+      <p class="image-caption"><i class="bi bi-balloon-heart-fill"></i>Tất Tần Tật Mọi Điều Cần Biết Về Xin Visa Du Lịch
+        Hàn Quốc.</p>
+      <img src="img/tintuc1.jpg" class="img-fluid">
+    </div>
+    <div class="ccc col-md-3 ps-3">
+      <p class="image-caption"><i class="bi bi-balloon-heart-fill"></i>Top 10 Địa Điểm Tuyệt Đẹp Dành Cho Tín Đồ Mê Du
+        Lịch Mỹ.</p>
+      <img src="img/tintuc2.jpg" class="img-fluid">
+    </div>
+    <div class="ccc col-md-3 ps-3">
+      <p class="image-caption"><i class="bi bi-balloon-heart-fill"></i>Khám Phá Mùa Thu Hàn Quốc-Gợi Ý Địa Điểm Vui
+        Chơi,Lịch Trình Hấp.</p>
+      <img src="img/tintuc3.png" class="img-fluid">
+    </div>
+    <div class="ccc col-md-3 ps-3">
+      <p class="image-caption"><i class="bi bi-balloon-heart-fill"></i>Thủ Tục Đi Du Lịch Mỹ Thăm Thân Nhân Và Những Lưu
+        Ý Cần Biết.</p>
+      <img src="img/tintuc4.jpg" class="img-fluid">
+    </div>
+  </div>
+  <div class="row">
+    <div class="ccc col-md-3 ps-3">
+      <p class="image-caption"><i class="bi bi-balloon-heart-fill"></i>Bí Quyết Du Lịch Hàn Quốc Tháng 11 - Lãng Mạn Mùa
+        Lá Đỏ.</p>
+      <img src="img/tintuc5.png" class="img-fluid">
+    </div>
+    <div class="ccc col-md-3 ps-3">
+      <p class="image-caption"><i class="bi bi-balloon-heart-fill"></i>Chia Sẻ Kinh Nghiệm Du Lịch Hàn Quốc Mùa Lá Đỏ -
+        Dolphin Tour.</p>
+      <img src="img/tintuc6.png" class="img-fluid">
+    </div>
+    <div class="ccc col-md-3 ps-3">
+      <p class="image-caption"><i class="bi bi-balloon-heart-fill"></i>HIỂU ĐÚNG, LÀM ĐÚNG CHỨNG MINH TÀI CHÍNH ĐI DU
+        LỊCH MỸ.</p>
+      <img src="img/tintuc7.jpg" class="img-fluid">
+    </div>
+    <div class="ccc col-md-3 ps-3">
+      <p class="image-caption"><i class="bi bi-balloon-heart-fill"></i>Xin Visa Mỹ Cho Cả Gia Đình - Hướng Dẫn, Kinh
+        Nghiệm Và.</p>
+      <img src="img/tintuc8.jpg" class="img-fluid">
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="text-white py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 ps-3">
+          <h5>Liên Hệ</h5>
+          <p class="chu"><i class="bi bi-building-fill"></i>Trụ Sở Chính</p>
+          <p><i class="bi bi-telephone-fill"></i> Hotline Tour: 0915 436 699</p>
+          <p><i class="bi bi-telephone-fill"></i> Hotline VMB: 0915 436 699</p>
+          <p><i class="bi bi-envelope"></i> Email: sales.han@dolphingroup.vn</p>
+          <hr class="custom-hr">
+          <h5><i class="bi bi-buildings-fill"></i>Văn Phòng Điều Hành, Vé Máy Bay</h5>
+          <p>Địa Chỉ: Tầng 3, toà nhà Dolphin Building | 115-117 Trần Khát Chân, Hai Bà Trưng, Hà Nội</p>
+          <p><i class="bi bi-telephone-fill"></i>Tel: 0243 933 9717 / 18</p>
+          <p><i class="bi bi-telephone-fill"></i>Hotline tour: 0915 43 6699</p>
+          <p><i class="bi bi-telephone-fill"></i>Hotline VMB: 0944 88 5599</p>
+          <p><i class="bi bi-envelope"></i>Email: phongve.han@dolphingroup.vn</p>
+          <p>
+          <h5>Kết Nối</h5>
+          <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+          </p>
+        </div>
+
+        <div class="col-md-3 ps-3">
+          <h5><i class="bi bi-buildings-fill"></i>CHI NHÁNH HỒ CHÍ MINH</h5>
+          <p>Địa chỉ: Số 96 Nguyễn Văn Thủ, P.Đakao, Q.1, TP.HCM</p>
+          <p><i class="bi bi-telephone-fill"></i>Tel: 028 3911 5656 / 5151</p>
+          <p><i class="bi bi-telephone-fill"></i>TOUR SGN: 088 623 3366</p>
+          <p><i class="bi bi-telephone-fill"></i>VMB SGN: 088 626 3355</p>
+          <p><i class="bi bi-envelope"></i>Email: sales.sgn@dolphingroup.vn</p>
+          <hr class="custom-hr">
+        </div>
+
+        <div class="col-md-3 ps-3">
+          <h5><i class="bi bi-menu-app"></i>MENU</h5>
+          <p> Trang chủ</p>
+          <p> Giới Thiệu</p>
+          <p> Tin Tức</p>
+          <p> Tuyển Dụng</p>
+          <p> Chăm Sóc Khách Hàng</p>
+          <p> Chính Sách Hoàn Hủy Dịch Vụ</p>
+          <p> Đặt Vé Máy Bay</p>
+          <p> Đại Lý</p>
+          <p> FAQ</p>
+          <h5><i class="bi bi-menu-app"></i>KHÁM PHÁ</h5>
+          <p> Cẩm Nang Du Lịch Châu Âu</p>
+        </div>
+
+        <div class="col-md-3 ps-3">
+          <h5><i class="bi bi-amd"></i>FANPAGE</h5>
+          <p>Địa chỉ: Số 96 Nguyễn Văn Thủ, P.Đakao, Q.1, TP.HCM</p>
+          <p><i class="bi bi-telephone-fill"></i>Tel: 028 3911 5656 / 5151</p>
+          <p><i class="bi bi-telephone-fill"></i>TOUR SGN: 088 623 3366</p>
+          <p><i class="bi bi-telephone-fill"></i>VMB SGN: 088 626 3355</p>
+          <p><i class="bi bi-envelope"></i>Email: sales.sgn@dolphingroup.vn</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="java/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"

@@ -1,0 +1,14 @@
+body {
+  background: url('../html/img/loginbackground.jpg') no-repeat;
+}
+  .body {
+    background-color: #f8f9fa;
+  }
+  .auth-form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
